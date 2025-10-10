@@ -1,0 +1,49 @@
+@import url('style.css');
+
+.portfolio-grid {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "aside main"
+        "footer footer";
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 100px auto 60px;
+    height: 90vh;
+    margin: 40px;
+    gap: 15px;
+}
+
+header,
+aside,
+main,
+footer {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-weight: 600;
+}
+
+header {
+    grid-area: header;
+    background-color: #2e8b57;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside {
+    grid-area: aside;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+    background-color: #d4a373;
+    color: white;
+}

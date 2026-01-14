@@ -15,6 +15,8 @@ The project represents a Nature Gallery website, designed with a consistent and 
 Created a stylish navigation bar using Flexbox. It includes links to all project pages (Task 1–4) and a logo.
 The page contains a hero section with a background image of nature and a call-to-action button that leads to the gallery.
 
+<img width="1432" height="1323" alt="Снимок экрана 2026-01-14 140602" src="https://github.com/user-attachments/assets/8d4029fe-3c8b-4985-ab34-cdea54c338cf" />
+
 
  Task 1 — Nature Cards (Flexbox)
 
